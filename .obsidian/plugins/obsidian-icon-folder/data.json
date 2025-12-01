@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasCalendarWeek",
+      "BoBxsDirections",
+      "SiGoogletasks",
+      "CoPaperclipAttechmentHorizontal",
+      "CoShow"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Obsidian/Issue's": "BoBxsError",
+  "Obsidian/MOC's": "BoBxsDirections",
+  "Obsidian/Input Notes": "BoBxsCylinder",
+  "Obsidian/Fleeting Notes": "BoBxsEnvelopeOpen",
+  "Obsidian/Extras": "FiPaperclip",
+  "Obsidian/Extras/Attachments": "CoPaperclipAttechmentHorizontal",
+  "Obsidian/Extras/Template": "LiLayoutTemplate",
+  "Obsidian/Extras/View": "CoShow",
+  "Obsidian/permanente notizen": "LiArchive",
+  "Obsidian/Tasks": "SiGoogletasks",
+  "Obsidian/Wochenberichte": "FasCalendarWeek"
+}
