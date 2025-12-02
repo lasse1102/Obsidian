@@ -46,6 +46,31 @@ let kunden: iKunde[] = [];
 kunden.push(kunde1)
 ```
 
+---
+### TypeScript strict Mode
+Der TypeScript Strict Mode ist eine Einstellung in der tsconfig.json die TypeScript strengere Typeregeln aktiviert und dabei helfen:
+- Fehler früh erkennen
+- unsicheren Code zu verhindern
+- besser vorhersehbaren, robusten Code zu schreiben
+
+Wenn du in deiner `tsconfig.json` folgendes setzt:
+```json
+{
+ "compilerOptions": { 
+	 "strict": true 
+} 
+ 
+```
+... aktiviert TypeScript **alle strengen Typprüfungen**
+Das beinhaltet u.a.:
+- nolmplicitAny
+- strictNullChecks
+- strictFunctionTypes
+- strictBindCallAply
+- strictPropertyInitialization
+- nolmplicitThis
+
+---
 
 ## References
 1. 
