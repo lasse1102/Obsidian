@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Input Notes/Typisierung in TypeScript.md",
+                "file": "Obsidian/Input Notes/Tailwind.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Typisierung in TypeScript"
+              "title": "Tailwind"
             }
           }
         ]
@@ -188,11 +188,24 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Obsidian/Input Notes/TypeScript.md",
+    "Obsidian/Input Notes/Grid-Layout.md",
+    "4 Files/Pasted image 20251203100354.png",
+    "4 Files/Pasted image 20251203100321.png",
+    "Obsidian/Input Notes/Tailwind.md",
+    "Obsidian/Input Notes/Flexbox-Layout.md",
+    "4 Files/Pasted image 20251203095457.png",
+    "4 Files/Pasted image 20251203094316.png",
+    "4 Files/Pasted image 20251203094249.png",
+    "4 Files/Pasted image 20251203094228.png",
+    "4 Files/Pasted image 20251203093818.png",
+    "Obsidian/Input Notes/container.md",
     "Obsidian/MOC's/Programming.md",
-    "Obsidian/MOC's/Dashboard.md",
-    "Obsidian/Input Notes/Ordnerstruktur.md",
+    "Obsidian/Input Notes/React.md",
     "Obsidian/Input Notes/React Grundlagen.md",
+    "Obsidian/Input Notes/Ordnerstruktur.md",
+    "Obsidian/Input Notes/TypeScript.md",
+    "Obsidian/Input Notes/Typisierung in TypeScript.md",
+    "Obsidian/MOC's/Dashboard.md",
     "Obsidian/MOC's/School.md",
     "Obsidian/Input Notes/Picks Statistiken.md",
     "Schnittstellen/API/Datenaustausch.md",
@@ -203,7 +216,6 @@
     "Obsidian/Input Notes/Was ist ein Build-Tool und was ist ein Bundler.md",
     "Obsidian/MOC's/JavaScript.md",
     "4 Files/Pasted image 20251127222448.png",
-    "Obsidian/Input Notes/React.md",
     "Obsidian/Input Notes/Aufbau eines Projektes mit React, TypeScript, Node, Express, MongoDB usw..md",
     "Obsidian/Excalidraw/Was ist React.md",
     "Obsidian/Input Notes/Was ist JSX.md",
@@ -211,29 +223,16 @@
     "4 Files/Unbenanntes Diagramm.drawio.png",
     "4 Files/Pasted image 20251127105044.png",
     "Obsidian/Input Notes/WIPO.md",
-    "Obsidian/Input Notes/AP2.md",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Herbst/Anwendungsentwicklung Teil 2 Lösung.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Herbst/Anwendungsentwicklung Teil 2.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Sommer/Anwendungsentwicklung/02_Loesung.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Sommer/Anwendungsentwicklung/02_Anwendungsentwicklung.pdf",
-    "Obsidian/Input Notes/SQL.md",
-    "Obsidian/Input Notes/Sozialversicherungssysteme.md",
-    "Obsidian/Input Notes/Gesetzliche Krankenversicherung.md",
-    "Obsidian/Input Notes/Gewerkschaften und Arbeitgeberverbände.md",
-    "Obsidian/Input Notes/Wichtige Gesetze.md",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Sommer/Anwendungsentwicklung/01_Anwendungsentwicklung.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Herbst/Anwendungsentwicklung/01_Belegsatz.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Sommer/01 Anwendungsentwickler.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Sommer/Belegsatz Anwendungsentwickler.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Herbst/Anwendungsentwicklung/01_Anwedungsentwicklung.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2025-Sommer/Anwendungsentwicklung_02.pdf",
-    "4 Files/Pasted image 20251121134425.png",
-    "4 Files/Pasted image 20251121133544.png",
-    "4 Files/Pasted image 20251119103106.png",
-    "4 Files/Pasted image 20251113182732.png",
-    "4 Files/Pasted image 20251113182701.png",
-    "4 Files/Pasted image 20251113173754.png",
-    "4 Files/Pasted image 20251113172458.png",
     "Obsidian/IT23-LFAE-ClauD/LF12/Blockchain/00 - Übersicht Blockchain (Material).canvas"
   ]
 }
