@@ -2,19 +2,20 @@
 --- 
 Erstellt: 2025-05-27    14:55 
 Tags: 
-Link Up: 
+Link Up: [[Programming]]
 Link Down:
 
 --- 
 Archiv:
 - Tailwind Grundlagen**
     [[Warum Tailwind]]
-
 - Layout Komponenten
 	[[Flexbox-Layout]]
 	[[Grid-Layout]]
-	[[Relative und absolut]]
-	[[Fixed und Sticky]]
+	[[Positioning]]
+- Design mit Tailwind
+	[[Konfigurationen in Tailwind]]
+	[[]]
 
 
 **Lern Leitfaden:**

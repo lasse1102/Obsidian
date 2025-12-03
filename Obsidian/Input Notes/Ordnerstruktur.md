@@ -16,6 +16,9 @@ Separation of Concerns bedeutet:
 > **Jede Einheit im Code (Datei, Komponente, Modul, Ordner) sollte genau eine klar abgegrenzte Aufgabe haben.**
 
 
+
+
+
 #### Wann ist die BulletProof Ordnerstruktur sinnvoll
 Grundsätzlich kann man sagen, das man bei keinen Projekt viel falsch macht mit der Ordnerstruktur, aber besonders bei kleineren, nicht komplexen Applikationen wie z.B.  ein Portfolio oder eine LandingPage, kann diese Ordnerstruktur zu einem Overhead führen, da sie einen deutliche größeren Nutzen hat als was eigentlich benötigt wird für ein kleines Projekt.
 Dennoch, kann man Teile der BulletProof Ordnerstruktur weglassen, die nicht benötigt werden, um es übersichtlicher zu gestalten. Dennoch sollte man immer im Hintergrund behalten das Prinzip von Seperation of Concern zu verfolgen.
