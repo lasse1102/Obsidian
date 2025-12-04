@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "relative",
+                "query": "Ordnerstru",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.50418853759766
+    "width": 345.50418853759766,
+    "collapsed": true
   },
   "right": {
     "id": "1627678394a17e87",
@@ -149,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/Input Notes/Konfigurationen in Tailwind.md",
+                "file": "Obsidian/Input Notes/Typisierung in TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +160,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Konfigurationen in Tailwind"
+              "title": "Backlinks for Typisierung in TypeScript"
             }
           }
         ],
@@ -172,6 +173,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "bases:Create new base": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -179,7 +181,6 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": false,
-      "homepage:Open homepage": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "card-board:CardBoard": false
@@ -187,32 +188,32 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "4 Files/Pasted image 20251203160937.png",
+    "4 Files/Pasted image 20251204085757.png",
     "Obsidian/Input Notes/Tailwind.md",
+    "Obsidian/MOC's/Programming.md",
+    "Obsidian/Input Notes/TypeScript.md",
+    "Obsidian/MOC's/Dashboard.md",
+    "Obsidian/Input Notes/Grid-Layout.md",
+    "Obsidian/Input Notes/Positioning.md",
     "Obsidian/Input Notes/Konfigurationen in Tailwind.md",
     "Obsidian/Input Notes/Farben als Variablen.md",
     "Obsidian/Input Notes/Farben als Variablen in Tailwind.md",
-    "Obsidian/Input Notes/Positioning.md",
+    "4 Files/Pasted image 20251203160937.png",
     "4 Files/Pasted image 20251203114732.png",
     "4 Files/Pasted image 20251203114428.png",
-    "Obsidian/MOC's/Programming.md",
-    "Obsidian/Input Notes/React.md",
-    "Obsidian/Input Notes/React Grundlagen.md",
-    "Obsidian/Input Notes/Ordnerstruktur.md",
-    "Obsidian/Input Notes/TypeScript.md",
-    "Obsidian/Input Notes/Typisierung in TypeScript.md",
     "4 Files/Pasted image 20251203113645.png",
-    "Obsidian/Input Notes/Grid-Layout.md",
-    "Obsidian/Input Notes/Flexbox-Layout.md",
-    "Obsidian/Input Notes/container.md",
     "4 Files/Pasted image 20251203100354.png",
     "4 Files/Pasted image 20251203100321.png",
+    "Obsidian/Input Notes/Flexbox-Layout.md",
     "4 Files/Pasted image 20251203095457.png",
     "4 Files/Pasted image 20251203094316.png",
     "4 Files/Pasted image 20251203094249.png",
     "4 Files/Pasted image 20251203094228.png",
-    "4 Files/Pasted image 20251203093818.png",
-    "Obsidian/MOC's/Dashboard.md",
+    "Obsidian/Input Notes/container.md",
+    "Obsidian/Input Notes/React.md",
+    "Obsidian/Input Notes/React Grundlagen.md",
+    "Obsidian/Input Notes/Ordnerstruktur.md",
+    "Obsidian/Input Notes/Typisierung in TypeScript.md",
     "Obsidian/MOC's/School.md",
     "Obsidian/Input Notes/Picks Statistiken.md",
     "Schnittstellen/API/Datenaustausch.md",
