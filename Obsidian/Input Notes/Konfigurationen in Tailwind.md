@@ -44,11 +44,36 @@ Die Design Tokens werden für die Generierung von Utility-Klassen verwendet. Sie
 - **Marken- oder Kunden-Theming:** Wenn Sie eine Anwendung für verschiedene Kunden mit unterschiedlichen Branding-Farben erstellen. Jeder Kunde bekommt seine eigene Klasse (z.B. `.theme-kunde-a`), die die Theme-Variablen überschreibt.
 - **Run-Time-Anpassungen:** Da die Werte als CSS-Variablen vorliegen, können sie leicht über JavaScript zur Laufzeit ausgelesen oder geändert werden, was bei traditionellen statischen Utility-Klassen nicht ohne Weiteres möglich ist.
 
-**Verwendung**
-1. Definition der Tokens
-	Verwende `@theme` in der Globalen CSS Datei, um die Basiswerte der Design-Tokens als CSS-Variable festzulegen.
-	![[Pasted image 20251203160937.png]]
+---
+##### @layer base, components, utilities
 
+
+
+---
+##### Keyframes
+
+
+
+---
+##### Utilities
+
+
+---
+##### Theme Inline
+
+
+----
+##### :root 
+
+
+
+Liste von Funktionen in der Tailwind 
+- @themes
+- @layer base, component, utility
+- @keyframes
+- @utility
+- :root
+- @theme inline
 
 
 
