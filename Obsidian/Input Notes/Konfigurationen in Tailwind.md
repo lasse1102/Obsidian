@@ -42,6 +42,7 @@ Die Design Tokens werden für die Generierung von Utility-Klassen verwendet. Sie
 - **Marken- oder Kunden-Theming:** Wenn Sie eine Anwendung für verschiedene Kunden mit unterschiedlichen Branding-Farben erstellen. Jeder Kunde bekommt seine eigene Klasse (z.B. `.theme-kunde-a`), die die Theme-Variablen überschreibt.
 - **Run-Time-Anpassungen:** Da die Werte als CSS-Variablen vorliegen, können sie leicht über JavaScript zur Laufzeit ausgelesen oder geändert werden, was bei traditionellen statischen Utility-Klassen nicht ohne Weiteres möglich ist.
 
+
 **Verwendung Beispiele**
 	![[Pasted image 20251204085757.png]]
 
@@ -57,7 +58,55 @@ Die Variablen innerhalb des `@theme`-Blocks sind **CSS-Variablen** (Custom Prope
 | **`--*: initial`**      | Überschreibt **alle** Standardwerte in einer Kategorie (hier für alle Color-Utilities).       | Löscht die gesamte Standard-Farbpalette, sodass nur deine eigenen Farben übrig bleiben. |
 
 
+---
+##### @layer base, components, utilities
+Hiermit können wir eigene CSS-Regeln in die richtige Tailwind Schicht (Layer) einordnen. Dadurch stellen wir sicher das Styles korrekt priorisiert werden und nicht "zufällig" überschrieben werden.
 
+**Reihenfolge der Layer**
+1. **base**: dies ist die niedrigste Ebene (body, Überschriften, Formular-Defaults)
+2. **components**: Wiederverwendbare Komponenten (Buttons, Cards etc.)
+3. **utilities**: hat die höchste Priorität und wird nach components und base geladen
+
+Tailwind sorgt dafür dass:
+- eigene CSS Regeln richtig einsortiert werden
+- sie in der richtigen Reihenfolge geladen werden
+- @apply korrekt funktioniert
+
+---
+##### @apply
+Dies ist sinnvoll wenn wir Code haben bzw. Design welches sich mehrfach wiederholt. Zum Beispiel. eine Liste von Projekten über Cards, welche alle das gleiche Design haben.
+Dann können wir mit @apply Tailwind Utilities direkt in CSS verwenden und sie beispielsweise in einer Klasse einfügen:
+![[Pasted image 20251205001637.png]]
+Nun können wir einfach für jedes Card die Klasse `btn-primary` verwenden.
+
+> Bei Nutzung von React, kommt @apply eher weniger zum Einsatz, da React schon darauf basiert Komponenten zu bauen die sich mehrfach wiederholen. Da erstellen wir in der Regel von Grund auf nur ein "Bauplan" der Komponente mit deren Design.
+
+
+---
+##### Keyframes
+Mit keyframes 
+
+
+---
+##### Utilities
+
+
+---
+##### Theme Inline
+
+
+----
+##### :root 
+
+
+
+Liste von Funktionen in der Tailwind 
+- @themes
+- @layer base, component, utility
+- @keyframes
+- @utility
+- :root
+- @theme inline
 
 
 
