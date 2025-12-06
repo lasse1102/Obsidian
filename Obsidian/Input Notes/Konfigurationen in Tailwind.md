@@ -57,6 +57,10 @@ Die Variablen innerhalb des `@theme`-Blocks sind **CSS-Variablen** (Custom Prope
 | **`--breakpoint-SM`**   | Überschreibt den Wert für einen bestimmten **Breakpoint** (z.B. `SM`, `MD`, `LG`).            | Beeinflusst alle Responsive-Utilities (z.B. `sm:text-center`).                          |
 | **`--*: initial`**      | Überschreibt **alle** Standardwerte in einer Kategorie (hier für alle Color-Utilities).       | Löscht die gesamte Standard-Farbpalette, sodass nur deine eigenen Farben übrig bleiben. |
 
+**Warum @themes anstatt :root**
+Mit @themes erstellen wird automatisch Utility-Klassen für die CSS-Eigenschaften. Wodurch wir diese dann wie ganz normales Tailwind in HTML einbinden können. Das ist der größte Vorteil.
+Mit :root könnten wir nur CSS-Variablen definieren, welche wir dann in Tailwind Funktionen oder CSS-Klassen verwenden können oder halt explizit das Design vom Root ändern.
+**Mehr dazu aber unten im Abschnitt Root**
 
 ---
 ##### @layer base, components, utilities
@@ -72,6 +76,9 @@ Tailwind sorgt dafür dass:
 - sie in der richtigen Reihenfolge geladen werden
 - @apply korrekt funktioniert
 
+**Utilities**
+Diese können ebenfalls mit dem @utilities definiert werden. Alle benutzerdefinierten Utilities werden automatisch im @layer utilities eingebaut.
+
 ---
 ##### @apply
 Dies ist sinnvoll wenn wir Code haben bzw. Design welches sich mehrfach wiederholt. Zum Beispiel. eine Liste von Projekten über Cards, welche alle das gleiche Design haben.
@@ -84,12 +91,24 @@ Nun können wir einfach für jedes Card die Klasse `btn-primary` verwenden.
 
 ---
 ##### Keyframes
-Mit keyframes 
+Mit keyframes kann man kurz gesagt Animationen definieren in CSS.
+Man sagt den Browser damit, wie sich ein Element über die Zeit verändern wird (z.B. Farbe, Position, Größe, Rotation ...)
+**Beispiel:**
+- Bei 0% → Element ist transparent
+- Bei 50% → Element ist halb sichtbar  
+- Bei 100% → Element ist vollständig sichtbar
+![[Pasted image 20251205103905.png]]
+Animation verwenden
+![[Pasted image 20251205103928.png]]
+-> Die .box Klasse wird in einer Sekunde von unsichtbar zu sichbar
 
 
----
-##### Utilities
-
+**Aufbau**
+Ein Keyframe besteht aus den folgenden 3 Blöcken.
+- einen Namen (z.B. `fadeIn`, `spin`, `slideUp`)
+- Schritten, die durch Prozenteingaben markiert sind (0% bis 100%)
+- CSS-Eigenschaft, die sich am jeweiligen Schritt ändert.
+Man kann beliebig viele Schritte definieren
 
 ---
 ##### Theme Inline
@@ -97,16 +116,23 @@ Mit keyframes
 
 ----
 ##### :root 
+:root ist der oberste Knoten im CSS, also der ganz oben stehende Eltern-Selector, der für die gesamte Webseite gilt.
+- Im :root kann ich CSS Variablen definieren, welche ich dann in anderen CSS Klassen oder Tailwind Funktionen verwenden kann
+- Im :root kann ich auch direkt Styles setzten und explizit das Root Verzeichnis ansprechen (z.B. Schriftart, Hintergrund Padding ...)
+
+Variablen definieren**
+![[Pasted image 20251205135331.png]]
+-> Hier wird nicht direkt das Design verändert
+-> hier werden nur variablen definiert die später verwendet werden
+
+**Design direkt ändern**
+![[Pasted image 20251205135432.png]]
+-> das macht die komplette Hintergrundfarbe schwarz
+-> Und der Text der Seite wird weiß
 
 
+---
 
-Liste von Funktionen in der Tailwind 
-- @themes
-- @layer base, component, utility
-- @keyframes
-- @utility
-- :root
-- @theme inline
 
 
 

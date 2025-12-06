@@ -15,7 +15,6 @@ Archiv:
 	[[Positioning]]
 - Design mit Tailwind
 	[[Konfigurationen in Tailwind]]
-	[[]]
 
 
 **Lern Leitfaden:**
