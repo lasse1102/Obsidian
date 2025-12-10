@@ -109,7 +109,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.2",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.17.2",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -481,6 +481,15 @@
   "canvasImmersiveEmbed": true,
   "startupScriptPath": "",
   "aiEnabled": true,
+  "openAIAPIToken": "",
+  "openAIDefaultTextModel": "gpt-3.5-turbo-1106",
+  "openAIDefaultTextModelMaxTokens": 4096,
+  "openAIDefaultVisionModel": "gpt-4o",
+  "openAIDefaultImageGenerationModel": "dall-e-3",
+  "openAIURL": "https://api.openai.com/v1/chat/completions",
+  "openAIImageGenerationURL": "https://api.openai.com/v1/images/generations",
+  "openAIImageEditsURL": "https://api.openai.com/v1/images/edits",
+  "openAIImageVariationURL": "https://api.openai.com/v1/images/variations",
   "modifierKeyConfig": {
     "Mac": {
       "LocalFileDragAction": {
@@ -774,15 +783,21 @@
   "rank": "Bronze",
   "modifierKeyOverrides": [
     {
-      "modifiers": ["Mod"],
+      "modifiers": [
+        "Mod"
+      ],
       "key": "Enter"
     },
     {
-      "modifiers": ["Mod"],
+      "modifiers": [
+        "Mod"
+      ],
       "key": "k"
     },
     {
-      "modifiers": ["Mod"],
+      "modifiers": [
+        "Mod"
+      ],
       "key": "G"
     }
   ],
