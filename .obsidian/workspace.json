@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ee9bb4f001e6600b",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "aa1d91cd43056194",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/MOC's/Dashboard.md",
+                "file": "Obsidian/Input Notes/Tailwind.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "Tailwind"
             }
           }
         ]
@@ -63,8 +63,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "relative",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -185,14 +185,27 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "aa1d91cd43056194",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Obsidian/Input Notes/Team Organiser.md",
-    "Obsidian/MOC's/Dashboard.md",
-    "Obsidian/MOC's/Programming.md",
+    "Obsidian/Input Notes/Positioning.md",
     "Obsidian/Input Notes/Tailwind.md",
-    "Obsidian/Input Notes/Task Management System.md",
+    "Obsidian/Input Notes/Flexbox-Layout.md",
+    "Obsidian/MOC's/Programming.md",
+    "Obsidian/MOC's/Dashboard.md",
+    "Obsidian/Input Notes/Ordnerstruktur.md",
+    "Obsidian/Input Notes/Portfolio bauen.md",
     "Obsidian/Input Notes/Konfigurationen in Tailwind.md",
+    "Obsidian/Input Notes/React.md",
+    "Obsidian/Input Notes/React Grundlagen.md",
+    "Obsidian/Input Notes/Aufbau eines Projektes mit React, TypeScript, Node, Express, MongoDB usw..md",
+    "Obsidian/Input Notes/Erstellen eines Full-Stack Projektes mit MERN Stack und TypeScript.md",
+    "Obsidian/Input Notes/TypeScript.md",
+    "Obsidian/Input Notes/NodeJS Projekt mit Docker erstellen.md",
+    "Obsidian/Input Notes/Git.md",
+    "Obsidian/Input Notes/Aufbau der Projektstruktur im Backend und im Frontend.md",
+    "Obsidian/MOC's/JavaScript.md",
+    "Obsidian/Input Notes/Team Organiser.md",
+    "Obsidian/Input Notes/Task Management System.md",
     "4 Files/Pasted image 20251205135432.png",
     "4 Files/Pasted image 20251205135331.png",
     "4 Files/Pasted image 20251205103928.png",
@@ -202,27 +215,14 @@
     "4 Files/Pasted image 20251203160937.png",
     "Obsidian/Input Notes/Farben als Variablen.md",
     "Obsidian/Input Notes/Farben als Variablen in Tailwind.md",
-    "Obsidian/Input Notes/Positioning.md",
     "4 Files/Pasted image 20251203114732.png",
     "4 Files/Pasted image 20251203114428.png",
-    "Obsidian/Input Notes/React.md",
-    "Obsidian/Input Notes/React Grundlagen.md",
-    "Obsidian/Input Notes/Ordnerstruktur.md",
-    "Obsidian/Input Notes/TypeScript.md",
     "Obsidian/Input Notes/Typisierung in TypeScript.md",
     "4 Files/Pasted image 20251203113645.png",
     "Obsidian/Input Notes/Grid-Layout.md",
-    "Obsidian/Input Notes/Flexbox-Layout.md",
     "Obsidian/Input Notes/container.md",
     "Obsidian/MOC's/School.md",
     "Obsidian/Input Notes/Picks Statistiken.md",
-    "Schnittstellen/API/Datenaustausch.md",
-    "Stakeholder/Shareholder.md",
-    "AP2_Roadmap.md",
-    "Obsidian/Input Notes/Was ist Vite.md",
-    "Obsidian/Input Notes/Architektur von TypeScript.md",
-    "Obsidian/Input Notes/Was ist ein Build-Tool und was ist ein Bundler.md",
-    "Obsidian/MOC's/JavaScript.md",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Herbst/Anwendungsentwicklung Teil 2 Lösung.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Herbst/Anwendungsentwicklung Teil 2.pdf",
     "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Sommer/Anwendungsentwicklung/02_Loesung.pdf",

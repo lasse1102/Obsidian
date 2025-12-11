@@ -26,7 +26,7 @@ server: {
 ```
 
 # Stack
-**Backend & Frameworks**
+**Backend & Frameworks**npm 
 - `express`: Dies ist das zentrale Web-Framework, das zur Erstellung des Servers und der APIs (Routen) verwendet wird. Das Projekt ist eine Node.js Anwendung
 - `dotenv`: Wird genutzt, um Konfigurationsdaten (wie z.B. Datenbank-Zugangsdaten oder Port-Nummer) aus einer .env-Datei zu laden und als Umgebungsvariablen bereitzustellen
 
