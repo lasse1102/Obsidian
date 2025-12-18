@@ -16,7 +16,7 @@ Separation of Concerns bedeutet:
 > **Jede Einheit im Code (Datei, Komponente, Modul, Ordner) sollte genau eine klar abgegrenzte Aufgabe haben.**
 
 
-
+https://github.com/alan2207/bulletproof-react/
 
 
 #### Wann ist die BulletProof Ordnerstruktur sinnvoll
