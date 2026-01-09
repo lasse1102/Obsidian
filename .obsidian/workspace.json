@@ -11,15 +11,9 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Obsidian/Excalidraw/Props in React.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Props in React"
-=======
-                "file": "Obsidian/Input Notes/Tailwind.md",
+                "file": "Obsidian/Input Notes/Promises, async, await und fetch.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -34,8 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tailwind"
->>>>>>> c925efbdfda903183a6ed7014d89dc66693ac60d
+              "title": "Promises, async, await und fetch"
             }
           }
         ]
@@ -44,20 +37,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2fa19cbcf320c7ed",
+    "id": "9ac5b9fbed21194f",
     "type": "split",
     "children": [
       {
-        "id": "39c16100312b989b",
+        "id": "0366814c41c2d456",
         "type": "tabs",
         "children": [
           {
-            "id": "39cdcdd4629015d0",
+            "id": "a2bc58ea7d4d1b80",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -65,13 +58,13 @@
             }
           },
           {
-            "id": "b35185d957b6e315",
+            "id": "f921d7d44180c29c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -82,7 +75,7 @@
             }
           },
           {
-            "id": "bda1ac02d81b1fce",
+            "id": "51d3759bbc842cfc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,52 +84,54 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "1627678394a17e87",
+    "id": "7057c5981d00ee07",
     "type": "split",
     "children": [
       {
-        "id": "ed6495045b2915a7",
+        "id": "750e65a8602ef81a",
         "type": "tabs",
         "children": [
           {
-            "id": "06bb04bcf8099855",
+            "id": "02528e23bd484870",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d91b9162bd078b05",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2021-Herbst/GA1_Anwendungsentwicklung_Lsg.pdf",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GA1_Anwendungsentwicklung_Lsg"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "0b3e388214779a87",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "MOC's/IT.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of IT"
-            }
-          },
-          {
-            "id": "d362f79a1e3a7c76",
+            "id": "4bd0aa503f3210f0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,41 +146,35 @@
             }
           },
           {
-            "id": "98486946ec1cfdc7",
+            "id": "f00126d6f2d5fc66",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "Obsidian/Input Notes/Tailwind.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
+                "followCursor": false,
                 "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "searchQuery": ""
               },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Tailwind"
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 405.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "switcher:Open quick switcher": false,
+      "bases:Create new base": false,
       "homepage:Open homepage": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-excalidraw-plugin:New drawing": false,
@@ -194,82 +183,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Obsidian/Input Notes/React Grundlagen.md",
-    "Obsidian/Input Notes/Was ist JSX.md",
-    "Obsidian/Input Notes/Komponenten in React.md",
-    "Obsidian/Input Notes/Ordnerstruktur.md",
-    "Obsidian/Input Notes/Aufbau eines Projektes mit React, TypeScript, Node, Express, MongoDB usw..md",
-    "Obsidian/Input Notes/React Projekt erstellen.md",
-    "Obsidian/Excalidraw/Was ist React.md",
-    "Obsidian/Excalidraw/Warum existieren Front-End Frameworks.excalidraw.md",
-    "Obsidian/Input Notes/React.md",
-    "Obsidian/MOC's/Programming.md",
-    "Obsidian/MOC's/Dashboard.md",
-    "Obsidian/Input Notes/Picks Statistiken.md",
-    "Obsidian/Input Notes/Portfolio bauen.md",
-    "Obsidian/Input Notes/Konfigurationen in Tailwind.md",
-    "Obsidian/Input Notes/Tailwind.md",
-    "Obsidian/Input Notes/Second Brain Planer.md",
-    "Obsidian/Input Notes/Task Management System.md",
-    "Obsidian/Input Notes/Routing in React.md",
-    "Obsidian/Input Notes/Conditional Rendering.md",
-    "Obsidian/Excalidraw/Props in React.md",
-=======
-    "Obsidian/Input Notes/Positioning.md",
-    "Obsidian/Input Notes/Tailwind.md",
-    "Obsidian/Input Notes/Flexbox-Layout.md",
-    "Obsidian/MOC's/Programming.md",
-    "Obsidian/MOC's/Dashboard.md",
-    "Obsidian/Input Notes/Ordnerstruktur.md",
-    "Obsidian/Input Notes/Portfolio bauen.md",
-    "Obsidian/Input Notes/Konfigurationen in Tailwind.md",
-    "Obsidian/Input Notes/React.md",
-    "Obsidian/Input Notes/React Grundlagen.md",
-    "Obsidian/Input Notes/Aufbau eines Projektes mit React, TypeScript, Node, Express, MongoDB usw..md",
-    "Obsidian/Input Notes/Erstellen eines Full-Stack Projektes mit MERN Stack und TypeScript.md",
->>>>>>> c925efbdfda903183a6ed7014d89dc66693ac60d
+    "Obsidian/Input Notes/Asynchronous.md",
+    "Obsidian/Input Notes/Promises, async, await und fetch.md",
     "Obsidian/Input Notes/TypeScript.md",
-    "Obsidian/Input Notes/NodeJS Projekt mit Docker erstellen.md",
-    "Obsidian/Input Notes/Git.md",
-    "Obsidian/Input Notes/Aufbau der Projektstruktur im Backend und im Frontend.md",
-    "Obsidian/MOC's/JavaScript.md",
-    "Obsidian/Input Notes/Team Organiser.md",
-    "Obsidian/Input Notes/Task Management System.md",
-    "4 Files/Pasted image 20251205135432.png",
-    "4 Files/Pasted image 20251205135331.png",
-    "4 Files/Pasted image 20251205103928.png",
-    "4 Files/Pasted image 20251205103905.png",
-    "4 Files/Pasted image 20251205001637.png",
-    "4 Files/Pasted image 20251204085757.png",
-    "4 Files/Pasted image 20251203160937.png",
-    "Obsidian/Input Notes/Farben als Variablen.md",
-<<<<<<< HEAD
-    "4 Files/Pasted image 20251203160937.png",
-=======
-    "Obsidian/Input Notes/Farben als Variablen in Tailwind.md",
->>>>>>> c925efbdfda903183a6ed7014d89dc66693ac60d
-    "4 Files/Pasted image 20251203114732.png",
-    "4 Files/Pasted image 20251203114428.png",
+    "Promises, async/await & fetch.md",
+    "Promises, async",
+    "Obsidian/MOC's/Programming.md",
+    "Obsidian/MOC's/Dashboard.md",
     "Obsidian/Input Notes/Typisierung in TypeScript.md",
-    "4 Files/Pasted image 20251203113645.png",
-<<<<<<< HEAD
-=======
-    "Obsidian/Input Notes/Grid-Layout.md",
-    "Obsidian/Input Notes/container.md",
-    "Obsidian/MOC's/School.md",
-    "Obsidian/Input Notes/Picks Statistiken.md",
->>>>>>> c925efbdfda903183a6ed7014d89dc66693ac60d
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Herbst/Anwendungsentwicklung Teil 2 Lösung.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Herbst/Anwendungsentwicklung Teil 2.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Sommer/Anwendungsentwicklung/02_Loesung.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Sommer/Anwendungsentwicklung/02_Anwendungsentwicklung.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Sommer/Anwendungsentwicklung/01_Anwendungsentwicklung.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Herbst/Anwendungsentwicklung/01_Belegsatz.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Sommer/01 Anwendungsentwickler.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2023-Sommer/Belegsatz Anwendungsentwickler.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2024-Herbst/Anwendungsentwicklung/01_Anwedungsentwicklung.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Übungsklausuren/2025-Sommer/Anwendungsentwicklung_02.pdf",
-    "Obsidian/IT23-LFAE-ClauD/LF12/Blockchain/00 - Übersicht Blockchain (Material).canvas"
+    "Obsidian/Input Notes/Architektur von TypeScript.md"
   ]
 }
