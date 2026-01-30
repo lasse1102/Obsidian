@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Input Notes/Promises, async, await und fetch.md",
+                "file": "Obsidian/Input Notes/TypeScript.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Promises, async, await und fetch"
+              "title": "TypeScript"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ts config",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,12 +84,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 303.5110321044922
   },
   "right": {
     "id": "7057c5981d00ee07",
@@ -183,14 +183,26 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Obsidian/Input Notes/Asynchronous.md",
-    "Obsidian/Input Notes/Promises, async, await und fetch.md",
-    "Obsidian/Input Notes/TypeScript.md",
-    "Promises, async/await & fetch.md",
-    "Promises, async",
     "Obsidian/MOC's/Programming.md",
     "Obsidian/MOC's/Dashboard.md",
-    "Obsidian/Input Notes/Typisierung in TypeScript.md",
-    "Obsidian/Input Notes/Architektur von TypeScript.md"
+    "Obsidian/Input Notes/Architektur von TypeScript.md",
+    "Obsidian/Input Notes/Erstellen eines Full-Stack Projektes mit MERN Stack und TypeScript.md",
+    "Obsidian/Input Notes/Aufbau eines Projektes mit React, TypeScript, Node, Express, MongoDB usw..md",
+    "Obsidian/Input Notes/TypeScript.md",
+    "Obsidian/Input Notes/Projektideen TypeScript.md",
+    "Obsidian/Input Notes/MERN Stack Leitfaden.md",
+    "Obsidian/Input Notes/MyProject.md",
+    "Obsidian/Input Notes/Projekt Präsentation.md",
+    "Obsidian/Input Notes/Relationales Datenmodell.md",
+    "Obsidian/Input Notes/AP2.md",
+    "4 Files/Pasted image 20260123145607.png",
+    "Obsidian/Input Notes/Picks Statistiken.md",
+    "Obsidian/Input Notes/React.md",
+    "Obsidian/Input Notes/React Grundlagen.md",
+    "Obsidian/Input Notes/Promises, async, await und fetch.md",
+    "Obsidian/Input Notes/Asynchronous.md",
+    "Promises, async/await & fetch.md",
+    "Promises, async",
+    "Obsidian/Input Notes/Typisierung in TypeScript.md"
   ]
 }

@@ -6,49 +6,90 @@ Link Up:
 Link Down:
 
 --- 
-### Pagination
 
-1. Wann werden die Tabellen aktualisiert
-	- Beim Laden der Seite
-	- Beim Filtern 
-	- Beim wechseln von der Section (Orders, Orderlines, Units) nicht!
-		- Es wird immer alles schon geladen basierend auf dem Filter.
-		- Es ändert sich lediglich die Sichbarkeit von den tabs (active = true)
+Lernen Mündliche Prüfung
+- OSI-Schicht Modell
+- Testing (White Box, Black Box)
+- SQL & Datenbank
+	- Relationale Datenbanken
+	- NO SQL
+	- Normalisierung
+	- ER-Modell
+- UI/UX -> Passt zu meinen Projekt
+- Objektorierntierung
+	- Interfaces
+	- Polymorphie
 
-2. handleResponse beinhaltet 3 Funktionen zum erstellen von Orders, Orderlines und Units
-	- Jede build Funktion wird mit dem Ersetzt was im HTML vordefiniert ist
-	- im HTML wird es dann draus gelöscht
+---
+#### Präsentation
+- Ich benötige noch eine Folio vor der Analyse um das Projekt irgendwie zu beschreiben, weil ich jetzt direkt in die Analyse reinstarte mit der Ausgangslage ohne das Projekt vorher zu erläutern worum es geht
 
-3. paginationAjaxCall(page)
-	1. Wann wird es aufgerufen
-		- Wird beim Laden der Seite aufgerufen
-		- Wird beim ändern des Filters aufgerufen
-		- Wird beim ändern der Seiten Zahl aufgerufen (Vor, Zurück, Bestimmte Seite)
-	- holt immer die Entries für Orders, Orderlines und Units aus dem Backend **für die richtige Seite**
+**Text(stichpunktartig)**
+- Ja Herzlich Willkommen zu meiner Projekt Präsentation. Mein Name ist Lasse Pöhls und ich arbeite bei der OK Logistics GmBH und COKG. 
+
+- Agenda (Einleitungstext noch verfassen)
+	- Zuerst stelle ich ihnen kurz mein Ausbildungsbetrieb vor 
+	- Danach erzähle ich Ihnen kurz etwas zur Analysephase worauf ich dann auf die Ausgangslage und das Projektziel eingehe
+	- Anschließend zeige ich den Entwurf der Anwendung 
+	- Im 4 Schritt geht es dann um die Implementierung der Anwendung 
+	- Und zu guter letzt ein kleines Fazit und ein Ausblick für die Zukunft
+
+- Genau, bevor wir mit den technischen Details zum Projekt beginnen, stelle ich ihnen kurz mein Ausbildungsunternehmen vor. OKLogistics ist ein Logistikdienstleister mit etwa 100 Mitarbeitern auf 2 Standorten aufgeteillt. Hier im Hintergrund sehen wir den Standort Hohenwestedt bei den ich auch täglich arbeite. Das tägliche Geschäft ist die Kommissionierung, also das Zusammenstellen von Waren für den Versand. Genau in diesem Umfeld ist auch mein Projekt angesiedelt.
+
+- Kommen wir nun zur Analysephase. Die Ausgangslage war folgende: Wir verfügen zwar große Mengen an Pick-Daten, also von Daten aus dem Kommissionieraufträgen, aber die Aufbereitung dieser Statistiken war für die Logistikleitung bisher eher zeitaufwendig und wenig anschaulich
+
+- Mein Projektziel 
+
 
 
 
 ---
-# Todos heute
-- [x] Bug Fixen, wenn Keine Daten Verfügbar sind, dass die Seitennummern auch nicht angezeigt werden ✅ 2025-12-17
-- [ ] Items einbinden
-- [ ] Testen
-- [ ] Pushen
-  
-  
-Hallo Yasmin, soweit fehlt bei dem Pickstatistik Tool nur noch die integration der Artikel. 
-Wie wäre es am sinnvollsten die ganzen Artikel abzurufen?
-Aktuell habe ich dafür eine DB Tabelle mit Beispieldaten (pick_statistics_items), dort würden dann aber täglich vermutlich Tausende von Zeilen hinzukommen, weil ich für jeden Tag alle verschiedenen Artikel speichere.
-Wäre es in diesem Fall sinnvoller vielleicht die ganzen Artikel direkt aus dem WMS abzurufen basieren auf den eingegebenen Filter?
+
+Projekt (Was funktioniert aktuell nicht?)
+- Die Daten sind inkorrekt es werden immer weniger angezeigt als was es tatsächlich ist
+- Standort wechsel funktioniert nicht (Es werden für alle Standorte die gleichen Werte angezeigt)
+- Durchschnittswerte sehen irgendwie falsch aus
 
 
 
 
-Die Frage die ich mir stelle ist, ob die DB Tabelle "pick_statistics_items" so sinnvoll ist, ich wüsste derzeit aber auch keine alternative wie man das sonst aufbauen sollte. 
-Ich benötige halt für jeden Tag alle verschiedenen Artikel die gepicked wurden sind mit deren Anzahl wie viele gepicked wurden sind und wie oft man den Artikel gepicked hat.
 
-Heißt konkret wenn nur heute 1500 verschiedene Artikel gepicked wurden sind, würden es auch 1500 neue Einträge in der Tabelle geben.
-Oder wäre es hier vielleicht sinnvoll die Daten direkt aus dem WMS abzufragen und die Tabelle zu löschen?
+
+---
+
+- Datums angeben
+- Daten aus dem WMS extrahieren mit dem Datum
+- QR Codes erstellen 2 Stück für ein Ladehilfsmittel (oben/unten)
+- Aufbau
+	- Oben Leser/SAP dann das Datum
+	- Erster QR Code
+	- Code aus der ersten Spalte nur ohne LSR- (Nur die Zahl)
+	- Dann eine Nummerierung
+	- 2 QR Code
+	- Code aus der Spalte Nach Lagerplatz nur ohne NMS- (Nur die Zahl)
+- Kann direkt auf der Seite geprintet werden (Muss keine PDF erstellt werden)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## References
-1. 
+1. https://dasperfektefachgespraech.de/

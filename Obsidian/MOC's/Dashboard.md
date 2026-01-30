@@ -19,8 +19,7 @@ Tags: #MOC
 [[Second Brain Planer]]
 [[Team Organiser]]
 [[Portfolio bauen]]
-
-[[MERN Stack Leitfaden]]
+[[Projektideen TypeScript]]
 
 
 [[MyProject]]
