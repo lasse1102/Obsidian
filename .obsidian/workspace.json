@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Input Notes/TypeScript.md",
+                "file": "Obsidian/Input Notes/Die richtige Ordnerstruktur wählen (Express, NestJS).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TypeScript"
+              "title": "Die richtige Ordnerstruktur wählen (Express, NestJS)"
             }
           }
         ]
@@ -84,12 +84,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 303.5110321044922
+    "width": 303.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "7057c5981d00ee07",
@@ -183,12 +183,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Obsidian/Input Notes/TypeScript.md",
+    "Obsidian/Input Notes/Die richtige Ordnerstruktur wählen (Express, NestJS).md",
     "Obsidian/MOC's/Programming.md",
     "Obsidian/MOC's/Dashboard.md",
     "Obsidian/Input Notes/Architektur von TypeScript.md",
     "Obsidian/Input Notes/Erstellen eines Full-Stack Projektes mit MERN Stack und TypeScript.md",
     "Obsidian/Input Notes/Aufbau eines Projektes mit React, TypeScript, Node, Express, MongoDB usw..md",
-    "Obsidian/Input Notes/TypeScript.md",
     "Obsidian/Input Notes/Projektideen TypeScript.md",
     "Obsidian/Input Notes/MERN Stack Leitfaden.md",
     "Obsidian/Input Notes/MyProject.md",
